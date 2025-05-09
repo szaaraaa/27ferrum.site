@@ -1,0 +1,33 @@
+.color-special {
+    background-color:thistle;}
+.row {
+    justify-content: center;}
+.jumbotron { 
+    padding-top: 10rem ;
+    padding-bottom: 10rem;}
+.margin {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.carousel {
+    overflow: auto;
+    width: 600px;
+}
+.wrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    justify-items: stretch;
+    animation: slide 15s infinite;
+}
+.wrap img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+@keyframes slide {
+    to {
+        translate: calc(-4 * 250px)
+    }
+}
